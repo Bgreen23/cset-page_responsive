@@ -46,25 +46,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
 h1, h2{
   font-family: 'Roboto Condensed', sans-serif;
-
 }
-
-
-
 /* Header */
 .site-header{
   background-color: #03151c;
   height: 76px;
 }
-
-
-
-
 .logo{
   display: inline-block;
   float: left;
@@ -141,24 +130,20 @@ h1, h2{
 	display: flex;
 	flex-direction: column;
 }
-
 .the-abs .content-header,
 .the-abs .mono,
 .the-abs .copy{
 	display: flex;
 }
-
 .flex-row {
 	display:flex;
 }
-
 .content-header {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #021d2c;
 	font-size: 27px;
 	font-weight: bold
 }
-
 /* Fonts */
 .mono{
   font-family: 'Roboto Mono', monospace;
@@ -166,36 +151,28 @@ h1, h2{
 	color: #021d2c;
 	line-height: 1.5;
 }
-
 .copy{
   font-family: 'Georgia', serif;
 	font-size: 16px;
 	line-height: 1.2;
 	color: #021d2c;
 }
-
 .the-abs .content-header{
 	margin: 15px 0;
 }
-
 .the-abs .mono {
 	margin: 15px 0;
 }
-
 .flex-row .copy {
 	margin: 15px 30px;
 }
-
 .flex-row .copy:first-of-type {
 	margin-left: 0;
 }
-
 /* Section */
 .thirds {
 	margin-top: 5px;
-
 }
-
 /* Aside */
 .sidebar {
 	background: rgba(20,233,183,1);
@@ -207,79 +184,63 @@ display: inline-block;
 width: 30%;
 padding: 95px 40px 100px 60px;
 }
-
 .sidebar p.mono {
 	margin: 20px 0 25px;
 }
-
 .objectives li {
 	list-style-type: initial;
 	padding: 15px 15px 15px 0;
 	font-size: 15px;
 }
-
 .objectives {
 	margin-left: 15px;
 }
-
 /* Schedule */
 .schedule {
 	display: inline-block;
 	width: 50%;
 	padding: 90px 70px 80px;
 }
-
 .schedule .small-header {
 	margin: 40px 0 15px;
 }
-
 .small-header {
 	font-size: 21px;
 }
-
 .schedule-block {
 	margin: 0 auto;
 	padding: 40px 0;
 	text-align: center;
 }
-
 .schedule-block .mono {
 	text-decoration: none;
 }
-
 .schedule-block span {
 	margin: 0 15px;
-
 }
-
 .schedule-block .mono:hover {
 	text-decoration: underline;
 	color: #14e9b6;
 }
-
 /* Current Students */
 .current-students .mono{
 	width: 40%;
 }
-
 .img-flex {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 .img-flex img {
 	display: flex;
 	margin: 5px;
 	width: 220px;
 	height:220px;
 }
-
 /* Footer */
 footer {
 	width: 90%;
 	margin: 0 auto;
 }
-
 .gradient-bar {
 	width: 100%;
 	height: 5px;
@@ -289,17 +250,18 @@ background: -webkit-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,2
 background: -ms-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
 background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
 }
-
 footer .nav-links {
 	text-align: right;
 }
-
 footer .nav-link:hover {
 	color: #14e9b6;
 }
-
 .footer-copy {
 	text-align: right;
 	font-size: 14px;
 	margin: 25px 0 10px;
+}
+@media only screen and max-width(768px) {
+
+
 }
